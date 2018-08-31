@@ -1,0 +1,13 @@
+header {
+    background-image: url(../images/water-bkgd.png);
+    color: grey;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Open Sans Condensed', san-serif;
+}
+
+body {
+    background-image: url(../images/concrete_seamless.jpg) 
+}

@@ -1,13 +1,96 @@
-header {
-    background-image: url(../images/water-bkgd.png);
-    color: grey;
-    margin: 50px;
+.header {
+    background-color: #a1d4d3;
+    color: white;
+    margin: 50px 0px 30px 0px;
     display: flex;
     justify-content: center;
-    align-content: center;
     font-family: 'Open Sans Condensed', san-serif;
+    font-size: 175%;
+    height: 60px;
+}
+
+h1 {
+    text-shadow: 2px 1px grey;
 }
 
 body {
     background-image: url(../images/concrete_seamless.jpg) 
 }
+
+label {
+font-family: Arial, Helvetica, sans-serif;
+padding: 5px 0px 0px 5px;
+color: #2e2f2f;
+}
+
+.row {
+    padding: 0px 0px 5px 20px;
+}
+
+#search {
+    background-color: #a1d4d3;
+    color: white;
+    border: 1px solid lightgrey;
+    font-family: 'Open Sans Condensed', san-serif;
+    font-weight: bold;
+    padding: 5px 0px 5px 5px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #a1d4d3;
+    color: black;
+    height: 40px;
+    border: 1px solid #a1d4d3;
+    font-weight: bold;
+    justify-content: flex-start;
+    margin: 10px 10px 0px 0px;
+    font-family: 'Open Sans Condensed', san-serif;
+}
+
+.btn-primary:hover {
+    background-color: #74c9f2;
+    border: 1px solid #a1d4d3;
+}
+
+#results {
+    background-color: #a1d4d3;
+    color: white;
+    border: 1px solid lightgrey;
+    font-family: 'Open Sans Condensed', san-serif;
+    font-weight: bold;
+    padding: 5px 0px 5px 5px;
+    margin-top: 10px;
+}
+
+div {
+    background-color: white;
+}
+
+.inputs {
+    border-radius: 50px;
+}
+
+#horizontal-line{ 
+   display: block;
+   margin-top:30px;
+   margin-bottom: 20px;
+   width:96%;
+   margin-left: auto;
+   margin-right: auto;
+   border-style: inset;
+   border-width: 1px;
+   border-color: #F0F0F0;
+   } 
+   
+  #footer {
+    background: none;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   bottom : 0;
+   margin-top : 10px;
+   margin-bottom: 5px;
+   font-size: 100% ;
+   font-family: 'Open Sans Condensed', san-serif;
+   }
